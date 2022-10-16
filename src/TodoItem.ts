@@ -4,7 +4,7 @@ class TodoItem {
   constructor(
     public id: number,
     public task: string,
-    public complete: boolean
+    public complete: boolean = false
   ) {
     this.id = id;
     this.task = task;
